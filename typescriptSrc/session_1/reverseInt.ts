@@ -7,7 +7,7 @@ const reverseInt = (int: number): number => {
     return parseInt(int.toString().split("").reverse().join(""));
 
     //! Option 2
-    // return parseInt(int.toString().split("").reduce((total, nextItem) => nextItem + total));
+    // return parseInt(int.toString().split("").reduce((total: string, nextItem: string): string => nextItem + total));
 }
 
 export default reverseInt;
